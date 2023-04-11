@@ -2,11 +2,24 @@
 // colors
 :root {
   // base
-  --font-family: "Open Sans", sans-serif;
-  --content-width: 1170px;
+  --font-family: "Intro", sans-serif;
+  --font-h1: 700 36px / 140% var(--font-family);
+  --font-h2: 700 30px / 140% var(--font-family);
+  --font-h3: 400 24px / 140% var(--font-family);
+  --font-p: 400 16px / 140% var(--font-family);
+  --font-menu: 400 14px / 140% var(--font-family);
+
+  --content-width: 1210px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
-  --light-color: #fff;
+  --color-white: #fff;
+  --color-east-bay: #484283;
+  --color-accent: #F14F4F;
+
+  // gaps
+
+  --grid-gap: 20px;
+  --main-offset: 40px;
 }

@@ -1,0 +1,16 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: var(--main-offset);
+  }
+
+  &__item {
+
+  }
+
+  &__link {
+    font: var(--font-menu);
+    color: var(--color-white);
+  }
+}
